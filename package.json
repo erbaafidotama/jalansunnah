@@ -16,7 +16,8 @@
     "prettier-plugin-svelte": "^2.2.0",
     "sass": "^1.32.7",
     "svelte": "^3.34.0",
-    "svelte-preprocess": "^4.6.9"
+    "svelte-preprocess": "^4.6.9",
+    "@sveltejs/adapter-vercel": "next"
   },
   "type": "module",
   "dependencies": {
