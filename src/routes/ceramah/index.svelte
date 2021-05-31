@@ -3,9 +3,9 @@
 	import { faChevronDown, faVideo } from '@fortawesome/free-solid-svg-icons';
 	import { faYoutube } from '@fortawesome/free-brands-svg-icons';
 
-	import ImgBanner from '../assets/images/lantai.jpg';
-	import UstSyafiq28Mei2021 from '../assets/images/ust-syafiq-28mei2021.jpg';
-	import UstKhalid28Mei2021 from '../assets/images/ust-khalid-26mei2021.jpg';
+	import ImgBanner from '../../assets/images/lantai.jpg';
+	import UstSyafiq28Mei2021 from '../../assets/images/ust-syafiq-28mei2021.jpg';
+	import UstKhalid28Mei2021 from '../../assets/images/ust-khalid-26mei2021.jpg';
 	let hiden = true;
 	let hiden2 = true;
 </script>
@@ -245,97 +245,6 @@
 								</span> Zoom</a
 							>
 						</footer>
-					</div>
-
-					<hr />
-
-					<div class="title">Ringkasan</div>
-					<div class="card is-fullwidth">
-						<header class="card-header">
-							<p class="card-header-title">Ustadz Dr. Syafiq Riza Basalamah, M.</p>
-							<button
-								class="card-header-icon"
-								aria-label="more options"
-								on:click={() => (hiden = !hiden)}
-							>
-								<span class="icon" style="font-size: 1.5em;">
-									<Fa icon={faChevronDown} />
-								</span>
-							</button>
-						</header>
-						<ul>
-							<li>In fermentum leo eu lectus mollis, quis dictum mi aliquet.</li>
-							<li>Morbi eu nulla lobortis, lobortis est in, fringilla felis.</li>
-							<li>Aliquam nec felis in sapien venenatis viverra fermentum nec lectus.</li>
-							<li>Ut non enim metus.</li>
-						</ul>
-						<footer class="card-footer" />
-					</div>
-
-					<div class="card is-fullwidth">
-						<header class="card-header">
-							<p class="card-header-title">Ustadz Dr. Khalid Zeed Abdullah Basalamah, Lc., M.A</p>
-							<button
-								class="card-header-icon"
-								aria-label="more options"
-								on:click={() => (hiden2 = !hiden2)}
-							>
-								<span class="icon" style="font-size: 1.5em;">
-									<Fa icon={faChevronDown} />
-								</span>
-							</button>
-						</header>
-						<ul>
-							<li>In fermentum leo eu lectus mollis, quis dictum mi aliquet.</li>
-							<li>Morbi eu nulla lobortis, lobortis est in, fringilla felis.</li>
-							<li>Aliquam nec felis in sapien venenatis viverra fermentum nec lectus.</li>
-							<li>Ut non enim metus.</li>
-						</ul>
-						<footer class="card-footer" />
-					</div>
-
-					<div class="card is-fullwidth">
-						<header class="card-header">
-							<p class="card-header-title">Ustadz Dr. Firanda Andirja Abidin, Lc., M.A</p>
-							<button
-								class="card-header-icon"
-								aria-label="more options"
-								on:click={() => (hiden2 = !hiden2)}
-							>
-								<span class="icon" style="font-size: 1.5em;">
-									<Fa icon={faChevronDown} />
-								</span>
-							</button>
-						</header>
-						<ul>
-							<li>In fermentum leo eu lectus mollis, quis dictum mi aliquet.</li>
-							<li>Morbi eu nulla lobortis, lobortis est in, fringilla felis.</li>
-							<li>Aliquam nec felis in sapien venenatis viverra fermentum nec lectus.</li>
-							<li>Ut non enim metus.</li>
-						</ul>
-						<footer class="card-footer" />
-					</div>
-
-					<div class="card is-fullwidth">
-						<header class="card-header">
-							<p class="card-header-title">Ustadz Subhan Bawazier</p>
-							<button
-								class="card-header-icon"
-								aria-label="more options"
-								on:click={() => (hiden2 = !hiden2)}
-							>
-								<span class="icon" style="font-size: 1.5em;">
-									<Fa icon={faChevronDown} />
-								</span>
-							</button>
-						</header>
-						<ul>
-							<li>In fermentum leo eu lectus mollis, quis dictum mi aliquet.</li>
-							<li>Morbi eu nulla lobortis, lobortis est in, fringilla felis.</li>
-							<li>Aliquam nec felis in sapien venenatis viverra fermentum nec lectus.</li>
-							<li>Ut non enim metus.</li>
-						</ul>
-						<footer class="card-footer" />
 					</div>
 				</div>
 			</div>
